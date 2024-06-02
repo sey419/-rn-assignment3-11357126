@@ -3,7 +3,7 @@ import { StyleSheet, View, Text } from "react-native";
 import { Image } from "expo-image";
 import { Color, FontFamily, FontSize, Border } from "../GlobalStyles";
 
-const OngoingTasksCards = () => {
+const tasks = () => {
   return (
     <View style={styles.ongoingTasksCards}>
       <View style={[styles.ongoingTasksCardsChild, styles.ongoingLayout]} />
@@ -414,4 +414,4 @@ const styles = StyleSheet.create({
   },
 });
 
-export default OngoingTasksCards;
+export default tasksasks;
