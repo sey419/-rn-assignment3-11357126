@@ -10,9 +10,9 @@ const App = () => {
   const [hideSplashScreen, setHideSplashScreen] = React.useState(true);
 
   const [fontsLoaded, error] = useFonts({
-    "Lato-Regular": require("../assets/fonts/Lato-Regular.ttf"),
-    "Lato-Light": require("../assets/fonts/Lato-Light.ttf"),
-    "Lato-Bold": require("../assets/fonts/Lato-Bold.ttf"),
+    "Lato-Regular.ttf": require("rn3/assets/fonts/Lato-Regular.ttf"),
+    "Lato-Light.ttf": require("rn3/assets/fonts/Lato-Light.ttf"),
+    "Lato-Bold.ttf": require("rn3/assets/fonts/Lato-Bold.ttf"),
   });
 
   if (!fontsLoaded && !error) {
