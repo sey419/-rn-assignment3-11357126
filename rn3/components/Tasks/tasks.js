@@ -1,12 +1,12 @@
 import * as React from "react";
 import { StyleSheet, View, Text } from "react-native";
 import { Image } from "expo-image";
-import { Color, FontFamily, FontSize, Border } from "../GlobalStyles";
+import { Color, FontFamily, FontSize, Border } from "../Colors.ts";
 
 const tasks = () => {
   return (
-    <View style={styles.ongoingTasksCards}>
-      <View style={[styles.ongoingTasksCardsChild, styles.ongoingLayout]} />
+    <View style={styles.tasks}>
+      <View style={[styles.tasksChild, styles.ongoingLayout]} />
       <View style={styles.pushUpsParent}>
         <Text style={[styles.pushUps, styles.studyTypo]}>Push Ups</Text>
         <Text style={[styles.exercise, styles.tasks1Typo]}>Exercise</Text>
@@ -15,11 +15,11 @@ const tasks = () => {
         <View style={[styles.searchBoc, styles.filterLayout]}>
           <View style={[styles.searchBoc, styles.filterLayout]}>
             <View style={[styles.groupChild, styles.groupPosition]} />
-            <View style={styles.mynauisearchParent}>
+            <View style={styles.mySearchParent}>
               <Image
-                style={[styles.mynauisearchIcon, styles.iconPosition]}
+                style={[styles.mySearchIcon, styles.iconPosition]}
                 contentFit="cover"
-                source={require("../assets/mynauisearch.png")}
+                source={require("../assets/images/mySearch.png")}
               />
               <Text style={[styles.search1, styles.studyTypo]}>Search</Text>
             </View>
@@ -29,9 +29,9 @@ const tasks = () => {
           <View style={[styles.rectangleGroup, styles.filterLayout]}>
             <View style={[styles.groupItem, styles.groupPosition]} />
             <Image
-              style={[styles.bxsliderIcon, styles.iconPosition]}
+              style={[styles.VectorIcon, styles.iconPosition]}
               contentFit="cover"
-              source={require("../assets/bxslider.png")}
+              source={require("../assets/image/Vector.png")}
             />
           </View>
         </View>
@@ -90,8 +90,8 @@ const tasks = () => {
           />
         </View>
       </View>
-      <View style={[styles.ongoingTasksCards1, styles.ongoingLayout]}>
-        <View style={[styles.ongoingTasksCardsChild, styles.ongoingLayout]} />
+      <View style={[styles.tasks1, styles.ongoingLayout]}>
+        <View style={[styles.tasksChild, styles.ongoingLayout]} />
         <View
           style={[styles.mobileAppDevelopmentWrapper, styles.pushUpsLayout]}
         >
@@ -100,8 +100,8 @@ const tasks = () => {
           </Text>
         </View>
       </View>
-      <View style={[styles.ongoingTasksCards2, styles.ongoingLayout]}>
-        <View style={[styles.ongoingTasksCardsChild, styles.ongoingLayout]} />
+      <View style={[styles.tasks2, styles.ongoingLayout]}>
+        <View style={[styles.tasksChild, styles.ongoingLayout]} />
         <View
           style={[styles.mobileAppDevelopmentWrapper, styles.pushUpsLayout]}
         >
@@ -110,8 +110,8 @@ const tasks = () => {
           </Text>
         </View>
       </View>
-      <View style={[styles.ongoingTasksCards3, styles.ongoingLayout]}>
-        <View style={[styles.ongoingTasksCardsChild, styles.ongoingLayout]} />
+      <View style={[styles.tasks3, styles.ongoingLayout]}>
+        <View style={[styles.tasksChild, styles.ongoingLayout]} />
         <View style={styles.pushUpsParent}>
           <Text style={[styles.pushUps, styles.studyTypo]}>Push Ups</Text>
           <Text style={[styles.exercise, styles.tasks1Typo]}>Exercise</Text>
@@ -414,4 +414,4 @@ const styles = StyleSheet.create({
   },
 });
 
-export default tasksasks;
+export default tasks;
