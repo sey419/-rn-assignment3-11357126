@@ -88,6 +88,33 @@ const tasks = () => {
             contentFit="cover"
             source={require("../assets/young-woman-working-at-desk.png")}
           />
+           <View style={[styles.studyParent, styles.parentPosition]}>
+            <Text style={[styles.study, styles.studyTypo]}>Paint</Text>
+            <Text style={styles.tasks1Typo}>8 Tasks</Text>
+          </View>
+          <Image
+            style={[styles.youngWomanWorkingAtDesk, styles.youngLayout]}
+            contentFit="cover"
+            source={require("../assets/young-woman-working-at-desk.png")}
+          />
+           <View style={[styles.studyParent, styles.parentPosition]}>
+            <Text style={[styles.study, styles.studyTypo]}>Trade</Text>
+            <Text style={styles.tasks1Typo}>7 Tasks</Text>
+          </View>
+          <Image
+            style={[styles.youngWomanWorkingAtDesk, styles.youngLayout]}
+            contentFit="cover"
+            source={require("../assets/young-woman-working-at-desk.png")}
+          />
+           <View style={[styles.studyParent, styles.parentPosition]}>
+            <Text style={[styles.study, styles.studyTypo]}>Graphic Design</Text>
+            <Text style={styles.tasks1Typo}>5 Tasks</Text>
+          </View>
+          <Image
+            style={[styles.youngWomanWorkingAtDesk, styles.youngLayout]}
+            contentFit="cover"
+            source={require("../assets/young-woman-working-at-desk.png")}
+          />
         </View>
       </View>
       <View style={[styles.tasks1, styles.ongoingLayout]}>
@@ -107,6 +134,65 @@ const tasks = () => {
         >
           <Text style={[styles.pushUps, styles.studyTypo]}>
             Web Development
+          </Text>
+        </View>
+      </View>
+      <View style={[styles.tasks1, styles.ongoingLayout]}>
+        <View style={[styles.tasksChild, styles.ongoingLayout]} />
+        <View
+          style={[styles.mobileAppDevelopmentWrapper, styles.pushUpsLayout]}
+        >
+          <Text style={[styles.pushUps, styles.studyTypo]}>
+            Runs
+          </Text>
+        </View>
+      </View> <View style={[styles.tasks1, styles.ongoingLayout]}>
+        <View style={[styles.tasksChild, styles.ongoingLayout]} />
+        <View
+          style={[styles.mobileAppDevelopmentWrapper, styles.pushUpsLayout]}
+        >
+          <Text style={[styles.pushUps, styles.studyTypo]}>
+            Walks
+          </Text>
+        </View>
+      </View>
+      <View style={[styles.tasks1, styles.ongoingLayout]}>
+        <View style={[styles.tasksChild, styles.ongoingLayout]} />
+        <View
+          style={[styles.mobileAppDevelopmentWrapper, styles.pushUpsLayout]}
+        >
+          <Text style={[styles.pushUps, styles.studyTypo]}>
+            Coding
+          </Text>
+        </View>
+      </View>
+      <View style={[styles.tasks1, styles.ongoingLayout]}>
+        <View style={[styles.tasksChild, styles.ongoingLayout]} />
+        <View
+          style={[styles.mobileAppDevelopmentWrapper, styles.pushUpsLayout]}
+        >
+          <Text style={[styles.pushUps, styles.studyTypo]}>
+           Weeding
+          </Text>
+        </View>
+      </View>
+      <View style={[styles.tasks1, styles.ongoingLayout]}>
+        <View style={[styles.tasksChild, styles.ongoingLayout]} />
+        <View
+          style={[styles.mobileAppDevelopmentWrapper, styles.pushUpsLayout]}
+        >
+          <Text style={[styles.pushUps, styles.studyTypo]}>
+            Research
+          </Text>
+        </View>
+      </View>
+      <View style={[styles.tasks1, styles.ongoingLayout]}>
+        <View style={[styles.tasksChild, styles.ongoingLayout]} />
+        <View
+          style={[styles.mobileAppDevelopmentWrapper, styles.pushUpsLayout]}
+        >
+          <Text style={[styles.pushUps, styles.studyTypo]}>
+            Meditation
           </Text>
         </View>
       </View>
